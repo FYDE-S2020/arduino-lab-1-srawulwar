@@ -57,5 +57,13 @@ void dimmer(int freq, int duty) {
 
 // the loop function runs over and over again forever
 void loop() {
-  timedBlink();                    // wait for a seconds
+  //timedBlink();                    // wait for a second
+    for (int i =0; i<100; i++)
+  {
+    dimmer (10, i);
+  }
+  for (int i =100; i>0; i--)
+  {
+    dimmer (10, i);
+  }
 }
