@@ -1,6 +1,6 @@
-Name:
+Name: Saiteja Rawulwar
 
-EID:
+EID: sr48332
 
 Team Number:
 
@@ -8,11 +8,11 @@ Team Number:
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    It needs to initialize the inputs and outputs in the setup and the loop allows the code to run continuously
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    The code will run indefinetely 
 
 3. Why does your code need to be compiled?
 
