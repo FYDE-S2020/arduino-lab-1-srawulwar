@@ -8,55 +8,58 @@ Team Number:
 
 1. Why does your program need a setup and a loop?
 
-    It needs to initialize the inputs and outputs in the setup and the loop allows the code to run continuously
+    The set up initializes the inputs and outputs of the board and the loop keeps the code running without constant manual input.
 
 2. What is the downside to putting all your code in a loop?
 
-    The code will run indefinetely 
+    The code will run indefinetely, even at times you don't want it to
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    A compiler translates a computer program fom one language to another, input to output.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    The period is increasing between the on and off states, making the LED constantly blink till asked to stop. The period needs to be shorter and to do this you must increase the frequency. In the real world, dimmers run at very high frequency so the blinking is not visible to the naked eye. 
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    Connecting the logic analyzer to ground on the ESP32 completes the circuit, only when the circuit is complete can you do anything with it. Just being connected to the port means the circuit is open and incomplete.
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    your answer here
+    Synchronous transmissions are synchronized by an external clock while asynchronous transmissions are synchronized by special signals along the transission medium. Synchronous needs a constant stream of data, while asynchronous does not. 
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    Sent 8 bits in 0.7745 ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    Sent 5 bits in 0.146 ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    SPI is synchronous while UART is asynchronous, meaning SPI can run as fast as needed and while UART sends info at speed limited by the input parameters
 
 10. list one pro and one con of UART
 
-    your answer here
+    pro: takes user input
+    con: slower than other forms of communication
 
 11. list one pro and one con of SPI
 
-    your answer here
+    pro: faster communication
+    con: requires greater number of parts
 
 12. list one pro and one con of I2C
 
-    your answer here
+    pro: can use multiple slave devices
+    con: requires pullup resistors
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    I2C lines are open drain.
 
 ## Screenshots
 
